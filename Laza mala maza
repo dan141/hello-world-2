@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Zadaatak</title>
+</head>
+<body>
+<?php
+define("measure", "cm");
+$a = 2;
+$b=3;
+$res = $a * $b;
+$message = "rectangle area is".$a.measure."*".$b.
+measure. "is".$res.measure;
+echo $message;
+?>
+</body>
+</html>
